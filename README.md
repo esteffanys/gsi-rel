@@ -23,3 +23,14 @@ codigos realizados para enviar o to para o git na pasta jonathan
    22  git remote -v
    23  git remote add origin https://github.com/esteffanys/gsi-rel
    24  git push -u origin main
+
+
+
+
+## documentação da instalção do samba no alpine linux
+
+PERGUNTA:como instalar um servidor samba como controlador de dominio do activeDirectory, o sistema operacional é o alpine e o alpine linux
+
+usando comando samba tool, crie 4 registros do DNS do tipo A (vide planilha)
+
+Explique o DN de seu usuario na arvore 
