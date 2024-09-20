@@ -49,5 +49,3 @@ Execute os seguintes comandos:
 [^2]: Digite uma mensagem para registrar o que você fez.
 [^3]: Verifique se a ramificação (*branch*) está com o nome `main`. 
 [^4]: A URL da Home Page de seu repositório do GitHub. Geralmente terminal com `.git`.
-
-
