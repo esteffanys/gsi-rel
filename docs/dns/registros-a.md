@@ -28,6 +28,7 @@ Use o seguinte comando para listar todos os registros de sua zona:
 ### Exemplo hipotético: Criando 4 registros do protocolo DNS do tipo 
 ### **A**:
 
+![imagens](ciandoA.png)
 1. **Registro para** www.palmas.lab:
 
 `samba-tool dns add 127.0.0.1 plamas.lab www A 192.168.1.10`
@@ -58,7 +59,14 @@ Use o seguinte comando para listar todos os registros de sua zona:
 
 para garantir que os registros foram criados corretamente, você pode usar o comando para listar os registros DNS:
 
+![imagens](criadaA.png)
+
 `samba-tool dns query 127.0.0.1 palmas.lab @ ALL`
 
 Esse comando listará tosos os registros do protocolo DNS do domínio **palmas.lab**, incluindo os novos registros **A**.
 
+### Criar a Unidade Organizacional (OU)
+
+As OUs ajudam a organizar entradas dentro de uma estrutura hierárquica e podem ser usadas para aplicar políticas específicas a grupos de objetos.
+
+![imagens](ou.png)

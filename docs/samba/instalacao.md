@@ -15,3 +15,25 @@ Dica:
 !!! note "Dica de *prompt* para o [ChatGPT](https://chatgpt.com)" 
 
 - Como instalar um servidor Samba como contraldor de domínio do ActiveDirectory. O sistema operacional é o Alpine Linux. O domínio "<estado>.lab".
+### Instalaçao
+Atualize seu sistema `apk update && apk upgrade` Instale o Samba-tool
+`apk add samba samba-tools` Inicie o serviço samba  `rc-update add samba default ``service samba start`
+
+
+
+### Conferindo se esta Instaldo samba-tool
+![imagens](samba-tool.png)
+
+O comando samba domain level show é uma ferramenta útil para administradores de sistemas que gerenciam ambientes Samba como controladores de domínio, ajudando a verificar e entender a configuração atual do domínio.
+
+![imagens](1.png)
+
+### Definir Servidores DNS e Configurar Domínios de Pesquisa
+![imagens](ip.png)
+### Criand Dominio
+ 
+![imagens](cdn.png)
+
+![imagens](dominio.png)
+
+![imagens](host.png)
