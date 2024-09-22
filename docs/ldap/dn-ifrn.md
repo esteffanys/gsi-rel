@@ -1,6 +1,11 @@
 # Explicação de seu DN do LDAP no IFRN
 
-Pontuação: [30 pontos][^1]
+Pontuação: [30 pontos]
+
+
+!!! note "Observações"
+
+    Por que vocês não usaram como exemplo a DN do usuário de um de vocês? 
 
 !!! warning
 

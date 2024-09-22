@@ -1,6 +1,11 @@
 # Instalação do SAMBA
 
-Pontuação: [30 pontos] 
+Pontuação: [30 pontos]
+
+!!! note "Observações"
+
+    1. Documentação é texto mais texto e menos imagens.
+    2. Senti falta do tutorial da instalação (Configuração do nome da máquina, arquivo `/etc/samba/smb.conf` e outros passos da instalação)
 
 Documente a instalação do Samba no Alpine Linux
 
